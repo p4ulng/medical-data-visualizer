@@ -24,10 +24,10 @@ By each number in the medical_data_visualizer.py file, add the code from the ass
 10. Draw the Heat Map in the draw_heat_map function.
 11. Clean the data in the df_heat variable by filtering out the following patient segments that represent incorrect data:
     - diastolic pressure is higher than systolic (Keep the correct data with (df['ap_lo'] <= df['ap_hi']))
-  - height is less than the 2.5th percentile (Keep the correct data with (df['height'] >= df['height'].quantile(0.025)))
-  - height is more than the 97.5th percentile
-  - weight is less than the 2.5th percentile
-  - weight is more than the 97.5th percentile
+    - height is less than the 2.5th percentile (Keep the correct data with (df['height'] >= df['height'].quantile(0.025)))
+    - height is more than the 97.5th percentile
+    - weight is less than the 2.5th percentile
+    - weight is more than the 97.5th percentile
 12. Calculate the correlation matrix and store it in the corr variable.
 13. Generate a mask for the upper triangle and store it in the mask variable.
 14. Set up the matplotlib figure.
