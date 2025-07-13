@@ -16,7 +16,7 @@ Create a chart similar to examples/Figure_1.png, where we show the counts of goo
 \
 By each number in the medical_data_visualizer.py file, add the code from the associated instruction number below.
 \
-\
+
 1. Import the data from medical_examination.csv and assign it to the df variable.
 2. Add an overweight column to the data. To determine if a person is overweight, first calculate their BMI by dividing their weight in kilograms by the square of their height in meters. If that value is > 25 then the person is overweight. Use the value 0 for NOT overweight and the value 1 for overweight.
 3. Normalize data by making 0 always good and 1 always bad. If the value of cholesterol or gluc is 1, set the value to 0. If the value is more than 1, set the value to 1.
